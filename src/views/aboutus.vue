@@ -1,19 +1,18 @@
 <template>
-    <div>
-      <house />
-      <a class="fixedButton" href="/messages">
-         <div class="roundedFixedBtn" > <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil">
-         </div>
-      </a>
-    </div>
+<div>
+    <about />
+     <a class="fixedButton" href="/messages">
+      <div class="roundedFixedBtn"><img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"></div>
+    </a>
+</div>
 </template>
 
 <script>
-import house from "@/components/house.vue";
+import about from "@/components/about.vue";
 export default {
-  name: "home",
-  components: {
-  house,
+    name: "aboutus",
+    components: {
+ about,
   }
 }
 </script>
