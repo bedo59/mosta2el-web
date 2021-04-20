@@ -1,14 +1,13 @@
 <template>
-    <div>
+  <div class="mess">
     <message />
-     </div>
+  </div>
 </template>
 <script>
 import message from "@/components/message.vue";
 export default {
-    name: "messages",
-    components: {
-  message,
-  }
-}
+  components: {
+    message,
+  },
+};
 </script>

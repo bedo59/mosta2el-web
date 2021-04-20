@@ -1,0 +1,410 @@
+<template>
+  <div id="chat-bubble">
+    <div class="chat-container">
+      
+
+      <div class="chat">
+        <header>
+          <h2 class="title">
+            <a href="https://www.elegantthemes.com/">ElegantThemes</a>
+          </h2>
+          <ul class="tools">
+            <li>
+              <a class="fa fa-gear" href="#"></a>
+            </li>
+            <li>
+              <a class="fa fa-search" href="#"></a>
+            </li>
+          </ul>
+        </header>
+        <div class="body">
+          <div class="search">
+            <input placeholder="Search..." type="text" />
+          </div>
+          <ul>
+            <li>
+              <a class="thumbnail" href="/messages"><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /></a>
+              <div class="content">
+                <h3>Nick Roach</h3>
+                <span class="preview">hey how are things going on the...</span>
+                <span class="meta">
+                  2h ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="thumbnail" href="/messages"> <img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /> </a>
+              <div class="content">
+                <h3>Kenny Sing</h3>
+                <span class="preview">make sure you take a look at the...</span>
+                <span class="meta">
+                  3h ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="thumbnail" href="/messages"> <img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /> </a>
+              <div class="content">
+                <h3>Mitch Skolnik</h3>
+                <span class="preview">i love wood grain things!</span>
+                <span class="meta">
+                  6h ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="thumbnail" href="v"> <img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /> </a>
+              <div class="content">
+                <h3>Yuriy Portnykh</h3>
+                <span class="preview"
+                  >check issues for the latest version...</span
+                >
+                <span class="meta">
+                  10h ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="thumbnail" href="/messages"> <img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /> </a>
+              <div class="content">
+                <h3>Josh Ronk</h3>
+                <span class="preview">make sure to do the following by...</span>
+                <span class="meta">
+                  2d ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="thumbnail" href="/messages"><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    /> </a>
+              <div class="content">
+                <h3>Benjamin Mueller</h3>
+                <span class="preview">Hi nice to meet you!</span>
+                <span class="meta">
+                  1w ago ·
+                  <a href="/messages">Category</a>
+                  ·
+                  <a href="/messages">Reply</a>
+                  <input type="text" class="write_msg" placeholder="Type a message" />
+      <button class="msg_send_btn" type="button">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <footer>
+          <a href="#" class="bedochat">chats</a>
+        </footer>
+      </div>
+    </div>
+  
+  <div id="demo">
+  
+  <transition name="fade">
+    <p v-if="show">hello</p>
+  </transition>
+</div>
+  </div>
+</template>
+
+<script>
+
+</script>
+
+<style>
+
+#chat-bubble.open .chat-comm {
+  display: block;
+}
+
+#chat-bubble.open {
+  min-height: 350px;
+}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  font-size: 30px;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #4c4c4c;
+}
+.chat-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: "Roboto";
+  background: #e6e6e6;
+  padding: 3px;
+}
+
+body {
+  background: #e9e9e9;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.chat {
+  background: #ffffff;
+  width: 300px;
+  margin: 0 auto;
+}
+.chat header {
+  background: #bd6982;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: move;
+}
+.chat header:before,
+.chat header:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.chat header h2,
+.chat .body ul li .content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  float: left;
+}
+.chat header h2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.chat header .tools {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.chat header .tools li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.chat header .tools li:last-child {
+  margin: 0;
+}
+.chat header .tools li a {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.chat .body {
+  position: relative;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+.chat .body .search {
+  display: none;
+  width: 100%;
+}
+.chat .body .search.opened {
+  display: block;
+}
+.chat .body .search input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  border: none;
+  -webkti-box-size: border-box;
+  -moz-box-size: border-box;
+}
+.chat .body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #f2f2f2;
+}
+.chat .body ul li {
+  position: relative;
+  background: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.chat .body ul li:before,
+.chat .body ul li:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.chat .body ul li:hover .thumbnail {
+  background: #bd6982;
+}
+.chat .body ul li:nth-child(2n) {
+  background: #f2f2f2;
+}
+.chat .body ul li .thumbnail {
+  display: inline-block;
+  background: #bfbfbf;
+  width: 50px;
+  color: #ffffff;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+.chat .body ul li .thumbnail img {
+  width: 100%;
+}
+.chat .body ul li .content {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: top;
+  line-height: 1;
+}
+.chat .body ul li .content h3 {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #808080;
+}
+.chat .body ul li .content .preview {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 5px;
+  color: #cccccc;
+  font-size: 12px;
+}
+.chat .body ul li .content .meta {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.chat .body ul li .content .meta a {
+  color: #999999;
+  text-decoration: none;
+}
+.chat .body ul li .content .meta a:hover {
+  text-decoration: underline;
+}
+.chat .body ul li .message {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.chat footer a {
+  background: #bd6982;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.chat footer a:hover {
+  background: #cd8ca0;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+.info {
+  width: 300px;
+  margin: 25px auto;
+  text-align: center;
+}
+.info h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+.info span {
+  color: #666666;
+  font-size: 12px;
+}
+.info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.info span .fa {
+  color: #bd6982;
+}
+.info span .spoilers {
+  color: #999999;
+  margin-top: 5px;
+  font-size: 10px;
+}
+</style>

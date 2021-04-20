@@ -1,11 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import messages from "../views/messages.vue";
-import brojects from "../views/brojects.vue";
-import aboutus from "../views/aboutus.vue";
-
-
 
 Vue.use(VueRouter);
 
@@ -17,18 +12,23 @@ const routes = [
   },
   {
     path: "/messages",
-    name: "messages",
-    component: messages,
+    name: "message",
+
+    component: () => import("../views/messages.vue"),
   },
+
   {
     path: "/brojects",
     name: "brojects",
-    component: brojects,
+
+    component: () => import("../views/brojects.vue"),
   },
+
   {
     path: "/aboutus",
     name: "aboutus",
-    component: aboutus,
+
+    component: () => import("../views/aboutus.vue"),
   },
 ];
 

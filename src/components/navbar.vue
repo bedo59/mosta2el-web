@@ -7,9 +7,9 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/aboutus">من نحن</b-nav-item>
-          <b-nav-item href="/brojects">مشاريعنا</b-nav-item>
-          <b-nav-item href="/messages">الرسائل</b-nav-item>
+        <div class="men">  <router-link to="/aboutus">من نحن</router-link></div>
+        <div class="men"> <router-link to="/brojects">مشاريعنا</router-link> </div>
+        <div class="men">  <router-link to="/messages">الرسائل</router-link> </div>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -29,3 +29,10 @@
     </b-navbar>
   </div>
 </template>
+<style>
+.men{
+  background: white;
+  color: white;
+  padding: 10px;
+}
+</style>
