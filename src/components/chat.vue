@@ -148,7 +148,7 @@
         </div>
         
         <footer>
-          <a href="#" class="bedochat">chats</a>
+          <a href="#" >chats</a>
         </footer>
       </div>
     </div>
@@ -167,7 +167,8 @@
   position: fixed;
   bottom: 0px;
   left: 0px;
-  padding: 20px;
+  padding: 5px;
+  width: 5px;
 }
 
 body {
@@ -186,7 +187,7 @@ body {
 }
 .chat {
   background: #ffffff;
-  width: 300px;
+  width: 250px;
   margin: 0 auto;
 }
 .chat header {
