@@ -152,33 +152,13 @@
         </footer>
       </div>
     </div>
-  
-  <div id="demo">
-  
-  <transition name="fade">
-    <p v-if="show">hello</p>
-  </transition>
-</div>
   </div>
 </template>
 
-<script>
 
-</script>
 
 <style>
 
-#chat-bubble.open .chat-comm {
-  display: block;
-}
-
-#chat-bubble.open {
-  min-height: 350px;
-}
-.msg_send_btn {
-  background: #05728f none repeat scroll 0 0;
-  font-size: 30px;
-}
 .input_msg_write input {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #4c4c4c;
