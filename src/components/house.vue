@@ -15,15 +15,7 @@
       </div>
     </div>
 
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img
-          class="rounded-circle img-fluid"
-          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/about/2.jpg?raw=true"
-          alt=""
-        />
-      </div>
-    </li>
+    
 
     <div class="row justify-content-center">
       <div class="col-lg-8">

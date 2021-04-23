@@ -1,193 +1,312 @@
 <template>
   <div id="chat-bubble">
-    <div class="chat-container">
-      
-
-      <div class="chat">
-        <header>
-          <h2 class="title">
-            <a href="https://www.elegantthemes.com/">ElegantThemes</a>
-          </h2>
-          <ul class="tools">
-            <li>
-              <a class="fa fa-gear" href="#"></a>
-            </li>
-            <li>
-              <a class="fa fa-search" href="#"></a>
-            </li>
-          </ul>
-        </header>
-        <div class="body">
-          <div class="search">
-            <input placeholder="Search..." type="text" />
+    <input type="checkbox" id="click" />
+    <div class="wrapper">
+      <div class="gamed">
+        <div class="tooglee">
+          <div class="msg_history">
+            <div class="chat-box">
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <div class="incoming_msg_img">
+                    <img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </div>
+                  <p>Test which is a new approach to have all solutions</p>
+                  <span class="time_date"> 11:01 AM | June 9</span>
+                </div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Test which is a new approach to have all solutions</p>
+                <span class="time_date"> 11:01 AM | June 9</span>
+              </div>
+            </div>
+            <div class="incoming_msg">
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>Test, which is a new approach to have</p>
+                  <span class="time_date"> 11:01 AM | Yesterday</span>
+                </div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Apollo University, Delhi, India Test</p>
+                <span class="time_date"> 11:01 AM | Today</span>
+              </div>
+            </div>
+            <div class="incoming_msg">
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>
+                    We work directly with our designers and suppliers, and sell
+                    direct to you, which means quality, exclusive products, at a
+                    price anyone can afford.
+                  </p>
+                  <span class="time_date"> 11:01 AM | Today</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <ul>
-            <li>
-              <a class="thumbnail" href="/messages"><img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /></a>
-              <div class="content">
-                <h3>Nick Roach</h3>
-                <span class="preview">hey how are things going on the...</span>
-                <span class="meta">
-                  2h ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-            <li>
-              <a class="thumbnail" href="/messages"> <img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /> </a>
-              <div class="content">
-                <h3>Kenny Sing</h3>
-                <span class="preview">make sure you take a look at the...</span>
-                <span class="meta">
-                  3h ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-            <li>
-              <a class="thumbnail" href="/messages"> <img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /> </a>
-              <div class="content">
-                <h3>Mitch Skolnik</h3>
-                <span class="preview">i love wood grain things!</span>
-                <span class="meta">
-                  6h ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-            <li>
-              <a class="thumbnail" href="v"> <img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /> </a>
-              <div class="content">
-                <h3>Yuriy Portnykh</h3>
-                <span class="preview"
-                  >check issues for the latest version...</span
-                >
-                <span class="meta">
-                  10h ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-            <li>
-              <a class="thumbnail" href="/messages"> <img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /> </a>
-              <div class="content">
-                <h3>Josh Ronk</h3>
-                <span class="preview">make sure to do the following by...</span>
-                <span class="meta">
-                  2d ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-            <li>
-              <a class="thumbnail" href="/messages"><img
-                      src="https://ptetutorials.com/images/user-profile.png"
-                      alt="sunil"
-                    /> </a>
-              <div class="content">
-                <h3>Benjamin Mueller</h3>
-                <span class="preview">Hi nice to meet you!</span>
-                <span class="meta">
-                  1w ago ·
-                  <a href="/messages">Category</a>
-                  ·
-                  <a href="/messages">Reply</a>
-                  <input type="text" class="write_msg" placeholder="Type a message" />
-      <button class="msg_send_btn" type="button">
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-      </button>
-                </span>
-              </div>
-            </li>
-          </ul>
+          <div class="type_msg">
+            <div class="input_msg_write">
+              <input
+                type="text"
+                class="write_msg"
+                placeholder="Type a message"
+              />
+              <button class="msg_send_btn" type="button">
+                <i class="fa fa-paper-plane-o" aria-hidden="true">sent</i>
+              </button>
+            </div>
+          </div>
         </div>
-        
-        <footer>
-          <a href="#" >chats</a>
-        </footer>
+      </div>
+    </div>
+
+    <input type="checkbox" id="click" />
+    <label for="click">
+      <i></i>
+      <i class="fas fa-times"></i>
+    </label>
+    <div class="wrapper">
+      <div class="chat-box">
+        <div class="field textarea">
+          <!-- Due to more textarea fields I got an error so I've changed the textarea name into changeit..Change the tag name to use it -->
+        </div>
+
+        <div class="chat-container">
+          <div class="chat">
+            <header>
+              <h2 class="title">
+                <a href="https://www.elegantthemes.com/">ElegantThemes</a>
+              </h2>
+              <ul class="tools">
+                <li>
+                  <a class="fa fa-gear" href="#"></a>
+                </li>
+                <li>
+                  <a class="fa fa-search" href="#"></a>
+                </li>
+              </ul>
+            </header>
+            <div class="body">
+              <div class="search">
+                <input placeholder="Search..." type="text" />
+              </div>
+              <ul>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <a class="thumbnail" href="/#"
+                    ><img
+                      src="https://ptetutorials.com/images/user-profile.png"
+                      alt="sunil"
+                    />
+                  </a>
+                  <div class="content">
+                    <button type="checkbox" id="clock">
+                      <h3>Benjamin Mueller</h3>
+                      <span class="preview">Hi nice to meet you!</span>
+                      <span class="meta">
+                        1w ago ·
+                        <a href="/#">Category</a>
+                        ·
+                        <a href="/messages">Reply</a>
+                      </span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <footer>
+              <a href="/messages">chats</a>
+            </footer>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-
-
 <style>
+.gamed {
+  background-color: #cfc5c8;
+  position: fixed;
+  bottom: 65px;
+  left: 310px;
+  padding: 5px;
+  width: 250px;
+}
+.mesgs {
+  width: 50%;
+}
 
+.sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+.sent_msg {
+  float: right;
+  width: 50%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 44px;
+  width: 50%;
+}
+
+.type_msg {
+  border-top: 1px solid #c4c4c4;
+  position: relative;
+}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+
+.msg_history {
+  height: 390px;
+  overflow-y: auto;
+}
 .input_msg_write input {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #4c4c4c;
 }
 .chat-container {
   position: fixed;
-  bottom: 0px;
+  bottom: 60px;
   left: 0px;
   padding: 5px;
   width: 5px;
 }
-
-body {
-  position: relative;
-  height: 100vh;
-  font-family: "Roboto";
-  background: #e6e6e6;
-  padding: 3px;
-}
-
-body {
-  background: #e9e9e9;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 .chat {
   background: #ffffff;
-  width: 250px;
+  width: 300px;
   margin: 0 auto;
 }
 .chat header {
